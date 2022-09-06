@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>IWGP - HOMEPAGE</title>
+</head>
+
+<body>
+    <header>
+        <div class="banner">
+            <h1>
+                <img class="doctor" src="logo_transparente_redHeart.png" alt="doctor">
+            </h1>
+            <nav>
+                <ul class="navegacao">
+                    <li>
+                        <a href="">Médicos </a>
+                    </li>
+                    <li>
+                        <a href="">Enfermagem</a>
+                    </li>
+                    <li>
+                        <a href="">ti</a>
+                    </li>
+                </ul>
+
+            </nav>
+        </div>
+
+
+    </header>
+    <main>
+        <ul class="produtos">
+            <li>
+                <h2>Soul Mv</h2>
+                <img src="pep.png" width="200px" alt="Soul MV">
+                <p>Administração Hospitalar</p>
+                <p></p>
+            </li>
+            <li>
+                <h2>Mv Pep</h2>
+                <img src="pep.png" width="200px" alt="pep">
+                <p>Prontuário Eletrônico do Paciente</p>
+                <p></p>
+            </li>
+            <li>
+                <h2>Mv Sacr</h2>
+                <img src="pep.png" width="200px" alt="sacr">
+                <p>Triagem do Paciente</p>
+                <p></p>
+            </li>
+            <li>
+                <h2>RPacs</h2>
+                <img src="pep.png" width="200px" alt="RPACS">
+                <p>Diagnóstico por Imagem</p>
+                <p></p>
+            </li>
+            <li>
+                <h2>Hmslabs</h2>
+                <img src="pep.png" width="200px" alt="HMS_Labs">
+                <p>Laboratório</p>
+                <p></p>
+            </li>
+        </ul>
+    </main>
+
+</body>
+
+</html>
