@@ -1,5 +1,6 @@
 body {
     background: rgba(255, 134, 5, 0.219);
+    font-family: 'Montserrat', sans-serif;
 }
 
 header {
@@ -42,11 +43,12 @@ nav a {
 }
 
 nav a:hover {
-    color: rgb(252, 83, 5);
+    color: rgb(51, 113, 170);
     /*text-decoration:underline;*/
     font-size: 35px;
     border: 1px rgb(252, 83, 5) solid;
     border-radius: 5px;
+    background: rgb(236, 140, 105);
 }
 
 nav a:active {
@@ -145,6 +147,7 @@ footer {
     text-align: center;
     /*background:rgb(134, 173, 204);*/
     background: rgb(51, 113, 170);
+    padding: 5px;
     
     
 }
