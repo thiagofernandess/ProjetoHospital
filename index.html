@@ -8,8 +8,10 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300;400;700&display=swap"
+        rel="stylesheet">
     <title>HOME - IWGP</title>
 </head>
 
@@ -17,7 +19,8 @@
     <header>
         <div class="banner">
             <h1>
-                <img class="doctor" src="logo_transparente_redHeart.png" alt="doctor">
+                <img class="doctor" src="iwgp.png" alt="doctor">
+                <p class="texto__logo">Instituto Walfredo Guedes Pereira</p>
             </h1>
             <nav>
                 <ul class="navegacao">
@@ -28,8 +31,11 @@
                         <a href="link_enfermagem/enf.html">Enfermagem</a>
                     </li>
                     <li>
-                        <a href="link_ti/TI.html">informática</a>
+                        <a href="link_recepcao/recep.html">recepção</a>
                     </li>
+                    <!--<li>
+                        <a href="link_ti/TI.html">informática</a>
+                    </li>-->
                 </ul>
 
             </nav>
@@ -38,12 +44,28 @@
 
     </header>
     <main>
+        <input type="checkbox" id="check__aviso">
+        <label for="check__aviso">
+        <div id="botao_mural">
+            <h2 class="texto__botao__mural">Mural de Avisos</h2>
+        </div>
+        </label>
+        <div class="texto__avisos">
+            <h2 class="avisos__titulo"></h2>
+            <h3 class="avisos__corpo">1) Lembrem-se de salvar documentos importantes em nossa rede interna</h3>
+            <h4 class="avisos__corpo">2) Informamos que, no presente momento, nossos estoques de toners estão esgotados</h4>
+            <h5 class="avisos__corpo">3) Marcelo: Horário limite para pagamento do bolão: 14hs!</h5>
+            <h6 class="avisos__corpo">4) Café da manhã dos aniversariantes do mês: dia 03/10 as 08:30h </h6>
+            <h6 class="avisos__corpo">5) O notebook está com Rosa!</h6>
+
+
+        </div>
         <ul class="produtos">
             <li>
                 <a href="http://192.168.0.11/mvautenticador-cas/login?service=http%3A%2F%2F192.168.0.11%3A80%2Fglobal%2Fflex%2FAppRunner.html%3Ft%3D1663004783089"
                     target="_blank">
                     <h2>Soul Mv</h2>
-                    <img src="hospital2.png" width="200px" alt="Soul MV">
+                    <img class="icon_sistemas" src="soulMV.png" width="210px" alt="Soul MV">
                     <p class="produto-descricao">Gestão Hospitalar</p>
                     <p class="produto-preco"></p>
                 </a>
@@ -52,7 +74,7 @@
                 <a href="http://192.168.0.11/mvautenticador-cas/login?service=http%3A%2F%2F192.168.0.11%3A80%2Fmvpep%2Findex.html%3Ft%3D1663005415546"
                     target="_blank">
                     <h2>Mv Pep</h2>
-                    <img src="hospital2.png" width="200px" alt="pep">
+                    <img class="icon_sistemas" src="pepMV.png" width="260px" alt="pep">
                     <p class="produto-descricao">Prontuário Eletrônico</p>
                     <p class="produto-preco"></p>
                 </a>
@@ -60,7 +82,7 @@
             <li>
                 <a href="http://192.168.0.11:8040/mvsacr/" target="_blank">
                     <h2>Mv Sacr</h2>
-                    <img src="hospital2.png" width="200px" alt="sacr">
+                    <img class="icon_sistemas" src="MVSACR.png" width="210px" alt="sacr">
                     <p class="produto-descricao">Triagem do Paciente</p>
                     <p class="produto-preco"></p>
                 </a>
@@ -68,7 +90,7 @@
             <li>
                 <a href="https://web.nurad.io/auth/login" target="_blank">
                     <h2>RPacs</h2>
-                    <img src="hospital2.png" width="200px" alt="RPACS">
+                    <img class="icon_sistemas" src="pacsMV2.png" width="80px" alt="RPACS">
                     <p class="produto-descricao">Diagnóstico por Imagem</p>
                     <p class="produto-preco"></p>
                 </a>
@@ -76,15 +98,15 @@
             <li>
                 <a href="http://192.168.0.25:9090/login#" target="_blank">
                     <h2>Hmslabs</h2>
-                    <img src="hospital2.png" width="200px" alt="HMS_Labs">
-                    <p class="produto-descricao">Laboratório</p>
+                    <img class="icon_sistemas" src="LabsMV.png" width="260px" alt="HMS_Labs">
+                    <p class="produto-descricao">LABORE - Laboratório</p>
                     <p class="produto-preco"></p>
                 </a>
             </li>
             <li>
                 <a href="http://192.168.0.4/ocomon/" target="_blank">
                     <h2>Atendimento Ti</h2>
-                    <img src="hospital2.png" width="200px" alt="Soul MV">
+                    <img class="icon_sistemas" src="link_ti/techGuy.png" width="120px" alt="Soul MV">
                     <p class="produto-descricao">Abertura de chamado</p>
                     <p class="produto-preco"></p>
                 </a>
@@ -92,7 +114,7 @@
             <li>
                 <a href="http://192.168.0.8/portalrh/WPortalRH.dll/$/" target="_blank">
                     <h2>colaborador</h2>
-                    <img src="hospital2.png" width="200px" alt="portal">
+                    <img class="icon_sistemas" src="pep.png" width="80px" alt="portal">
                     <p class="produto-descricao">Portal do colaborador</p>
                     <p class="produto-preco"> </p>
                 </a>
@@ -100,7 +122,7 @@
             <li>
                 <a href="http://192.168.0.11/formularios.html" target="_blank">
                     <h2>formulários</h2>
-                    <img src="hospital2.png" width="200px" alt="formulários internos">
+                    <img class="icon_sistemas" src="formularios.png" width="80px" alt="formulários internos">
                     <p class="produto-descricao">Formulários internos</p>
                     <p class="produto-preco"></p>
                 </a>
@@ -108,7 +130,7 @@
             <li>
                 <a href="http://192.168.0.11/protocolos.html" target="_blank">
                     <h2>protocolos</h2>
-                    <img src="hospital2.png" width="200px" alt="formularios internos">
+                    <img  src="protocolos2.png" width="80px" alt="formularios internos">
                     <p class="produto-descricao">protocolos internos</p>
                     <p class="produto-preco"> </p>
                 </a>
@@ -119,7 +141,7 @@
     <footer>
         <img class="blackheart" src="iwgp.png" alt="">
         <p>&copy;Thiago Fernandes</p>
-        <p>Equipe de TI - Instituto Walfredo Guedes Pereira</p>
+        <p class="texto__rodape">Equipe de TI - Instituto Walfredo Guedes Pereira</p>
     </footer>
 
 </body>
