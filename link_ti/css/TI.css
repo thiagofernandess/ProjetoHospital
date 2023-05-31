@@ -180,4 +180,58 @@ footer {
 
 }
 
-@media screen and (max-width: 480px) {}
+/*aumenta a altura do banner*/
+@media (max-width:800px) {
+    .banner {
+        height: 180px;
+    }
+}
+
+/*diminue o tamanho da imagem*/
+@media (max-width: 800px) {
+    .doctor {
+        width:150px;
+    }
+}
+
+/*torna invisível o nome sob a imagem*/
+@media (max-width: 800px) {
+    .texto__logo {
+        display: none;
+    }
+}
+
+/*traz para a esquerda o menu nav*/
+@media (max-width: 897px) {
+   nav {
+    width: 100%;
+    top: 95px;
+    font-size: 10px;
+    right: auto;
+   
+   } 
+}
+
+/*Diminui a fonte dos botões da nav*/
+@media (max-width: 897px) {
+    nav a {
+        font-size: 18px;
+    }
+    
+}
+
+/*muda o tamanho das caixas e o display em 1x1*/
+@media (max-width: 600px) {
+    .produtos li {
+        width: 40%;
+        display: block;
+    }
+}
+
+/*Sobre o botão mural de avisos e o traz um pouco mais para a esquerda*/
+@media (max-width: 600px) {
+    #botao_mural {
+        top: 185px;
+        right: 150px
+    }
+}
