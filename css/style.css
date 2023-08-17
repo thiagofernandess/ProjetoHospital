@@ -104,6 +104,7 @@ nav a:active {
     border-radius: 20px;
     transition: all 0.5s;
     box-shadow: 1px 1px 50px;
+    flex-wrap: wrap;
 }
 
 #botao_mural:hover {
@@ -127,7 +128,7 @@ nav a:active {
 .texto__avisos {
     left: -300px;
     width: 230px;
-    height: 620px;
+    height: 572px;
     max-height: 620px;
     overflow: auto;
     position: absolute;
@@ -144,6 +145,8 @@ nav a:active {
     border-radius: 20px;
     transition: all 0.5s;
     box-shadow: 1px 1px 50px;
+    line-height: 170%;
+    font-size: 15px;
     /*
     border: 1px rgb(252, 83, 5) solid;
     background: rgb(236, 140, 105);
