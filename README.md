@@ -62,25 +62,17 @@ Cada página representa o painel principal de acesso de um dos três perfis (enf
 
 ---
 
-## 🖼️ Prévia Visual (opcional)
-> *(Adicione aqui capturas de tela do projeto para exibir a interface — ex.: tela inicial, perfis, menu, etc.)*
+## 🖼️ Prévia Visual
+ <img width="1888" height="826" alt="image" src="https://github.com/user-attachments/assets/b423d0d2-af0c-410c-a8a7-1827952e3d6e" />
 
-Exemplo de inclusão:  
-![Tela inicial do portal](imagens/preview.png)
+
 
 ---
 
 ## 👨‍💻 Autor
 **Thiago Fernandes Alves Pinto**  
 
-📍 Projeto acadêmico desenvolvido para fins educacionais e de demonstração.  
-📂 Repositório oficial: [GitHub - ProjetoHospital](https://github.com/thiagofernandess/ProjetoHospital/tree/main)
 
----
-
-## 📜 Licença
-Este projeto foi desenvolvido com fins **educacionais e demonstrativos**.  
-O uso comercial ou redistribuição sem autorização prévia dos autores **não é permitido**.
 
 ---
 
